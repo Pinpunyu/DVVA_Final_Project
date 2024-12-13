@@ -1,0 +1,43 @@
+body {
+    background-color: #f3f5fa !important;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #3d475f !important; 
+    border: 20px !important;
+    padding: 20px !important;
+    /*padding-bottom: 20px; */
+}
+
+.navbar-brand {
+    font-size: 1.8rem !important;
+    font-weight: bold !important;
+    color: white !important;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.nav-link {
+    font-size: 1.5rem !important;
+    margin: 0 15px !important;
+    font-weight: bold !important;
+    color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.nav-link:hover {
+    color: #266ac2 !important;
+}
+
+.nav-link.active {
+    color: white !important;
+}
+
+.chart-div {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}

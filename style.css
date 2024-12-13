@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* #intro {
+    background-image: url("image/bg7.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+} */
+
+#intro {
+    background-image: url("image/bg7.jpg");
+    height: 99.7vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+/* #intro {
+    background-image: url("image/bg7.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+} */
+
+.button-group button {
+    margin: 10px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(0, 123, 255, 0.8);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.button-group button:hover {
+    background-color: rgba(0, 105, 217, 0.9);
+    transform: translateY(-5px);
+}
+
+@media (min-width: 992px) {
+    #intro {
+        margin-top: -58.59px;
+    }
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.mask {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 a {
+    color: #00d4ff;
+    text-decoration: none;
+}
+
+h2 a:hover {
+    text-decoration: underline;
+}
