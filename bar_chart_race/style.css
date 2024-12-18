@@ -41,3 +41,35 @@ body {
     padding: 20px;
     border-radius: 10px;
 }
+
+#chart-container {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center;    /* 垂直居中 */
+    height: 100vh;          /* 占滿視窗高度 */
+}
+
+#chart-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+#year-text{
+    font-size: 24px;
+    fill: #555;
+    text-anchor: end;
+}
+
+#play-button{
+    padding: 10px 20px;
+    border: 2px solid #555;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #fff;
+    color:#555;
+}
+
+.value-label{
+    text-anchor: start;
+    fill:#555;
+}
