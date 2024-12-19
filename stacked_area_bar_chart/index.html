@@ -6,12 +6,38 @@
     <title>Pollution and Disease</title>
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://unpkg.com/d3-simple-slider"></script>
+    <style>
+      #mapSliderContainer {
+        position: absolute; 
+        right: 3px; 
+        top: 3px;
+        height: 600px; 
+        display: flex;
+        align-items: center;
+      }
+
+      #mapSlider {
+        transform: rotate(-90deg); 
+        transform-origin: center; 
+        width: 300px;
+      }
+    </style>
     <link rel="stylesheet" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
+    <div id="mapSliderContainer">
+      <input
+        type="range"
+        id="mapSlider"
+        min="4"
+        max="14"
+        value="4"
+        step="1"
+      />
+    </div>
     <header>
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg">
