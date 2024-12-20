@@ -59,15 +59,19 @@ body {
     text-anchor: end;
 }
 
-#play-button{
-    padding: 10px 20px;
-    border: 2px solid #555;
-    border-radius: 10px;
-    font-size: 25px;
-    cursor: pointer;
-    background-color: #fff;
-    color:#555;
+#play-button-rect{
+    margin: 10px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(0, 123, 255, 0.8);
 }
+
+legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+  }
 
 .value-label{
     text-anchor: start;
