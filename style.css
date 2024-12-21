@@ -2,12 +2,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* #intro {
-    background-image: url("image/bg7.jpg");
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-} */
+
 
 #intro {
     background-image: url("image/bg7.jpg");
@@ -17,17 +12,6 @@ body {
     overflow: hidden;
 }
 
-/* #intro {
-    background-image: url("image/bg7.jpg");
-    height: 100vh;
-    width: 100vw;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat; 
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-} */
 
 .button-group button {
     margin: 10px;

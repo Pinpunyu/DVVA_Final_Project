@@ -1,0 +1,82 @@
+body {
+    background-color: #f3f5fa !important;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #3d475f !important;
+    border: 20px !important;
+    padding: 20px !important;
+    /*padding-bottom: 20px; */
+}
+
+.navbar-brand {
+    font-size: 1.8rem !important;
+    font-weight: bold !important;
+    color: white !important;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.nav-link {
+    font-size: 1.5rem !important;
+    margin: 0 15px !important;
+    font-weight: bold !important;
+    color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.nav-link:hover {
+    color: #266ac2 !important;
+}
+
+.nav-link.active {
+    color: white !important;
+}
+
+.chart-div {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+/* h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif !important;
+} */
+
+h1, h3 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif !important;
+    font-weight: bold !important;
+    /* text-decoration: none !important; */
+}
+
+
+.card-img-right {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card {
+    margin: 20px 0px 0px 0px !important; /* top right bottom left */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) ;  /* Optional: Adds shadow for better separation */
+    border-radius: 10px ;  /* Optional: Rounds corners for a smoother look */
+}
+
+.jumbotron {
+    margin: 10px 0px 0px 0px !important;
+    padding: 40px !important;
+    border-radius: 15px !important;  
+}
+
+p {
+    font-family: 'Roboto', sans-serif !important;
+    display: block !important;
+    font-size: 18px !important;
+    margin-block-start: 0.5em !important;
+    margin-block-end: 2em !important;
+}
