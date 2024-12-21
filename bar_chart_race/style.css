@@ -72,7 +72,13 @@ legend {
     color: #fff;
     padding: 3px 6px;
   }
-
+#continent-selector{
+    position:absolute;
+    top:160px;
+    left:300px;
+    font-size: 14px;
+    padding: 5px;
+}
 .value-label{
     text-anchor: start;
     fill:#555;
