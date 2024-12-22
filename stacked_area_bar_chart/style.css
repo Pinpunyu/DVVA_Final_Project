@@ -28,6 +28,21 @@ body {
     color: rgba(255, 255, 255, 0.3) !important;
 }
 
+.nav-link img {
+    margin-right: 10px;
+ }
+
+ .nav-item:nth-child(1) .nav-link:hover img {
+    content: url('../image/new-death.png');
+}
+.nav-item:nth-child(2) .nav-link:hover img {
+    content: url('../image/new-tree.png');
+}
+.nav-item:nth-child(4) .nav-link:hover img {
+    content: url('../image/new-prevent.png');
+}
+
+
 .nav-link:hover {
     color: #266ac2 !important;
 }
