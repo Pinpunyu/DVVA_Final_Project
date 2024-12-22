@@ -41,3 +41,18 @@ body {
     padding: 20px;
     border-radius: 10px;
 }
+
+#chart-svg{
+    justify-content: center; 
+    align-items: center;  
+    width: 80%;
+    height:auto;
+}
+
+#year-selector{
+    position: absolute;
+    top: 100px;
+    left:150px;
+    margin: 20px 0;
+    font-size: 14px;
+}
