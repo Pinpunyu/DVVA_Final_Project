@@ -44,9 +44,9 @@ body {
 
 #chart-container {
     display: flex;
-    justify-content: center; /* 水平居中 */
-    align-items: center;    /* 垂直居中 */
-    height: 100vh;          /* 占滿視窗高度 */
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh;          
 }
 
 #chart-title{
@@ -66,7 +66,10 @@ body {
     border: none;
     background-color: rgba(0, 123, 255, 0.8);
 }
-
+#chart-svg{
+    justify-content: center; 
+    align-items: center;   
+}
 legend {
     background-color: #000;
     color: #fff;

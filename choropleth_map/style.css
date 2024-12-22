@@ -41,3 +41,10 @@ body {
     padding: 20px;
     border-radius: 10px;
 }
+
+#chart-svg{
+    justify-content: center; 
+    align-items: center;  
+    width: 80%;
+    height:auto;
+}
