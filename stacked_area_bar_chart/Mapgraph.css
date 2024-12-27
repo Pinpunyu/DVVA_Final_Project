@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+    overflow: hidden;
+  }
+  
+
+  .tick text {
+    font-size: 1em;
+    fill: #8e8883;
+  }
+  .tick line {
+    stroke: #c0c0bb;
+  }
+  
+  .axis-label {
+    font-size: 5em;
+    fill: #8e8883;
+  }
+  
+  .title {
+    font-size: 3.2em;
+    fill: #635f5d;
+  }
+  
+  .class-name {
+    font-size: 2em;
+  }
+  #menus {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  #menus select {
+    font-size: 2.5rem;
+  }
+  
+  #menus select option {
+    font-size: 1rem;
+  }
+  .tooltip {
+    position: absolute;
+    z-index: 9999; 
+}
